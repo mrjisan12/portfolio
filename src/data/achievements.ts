@@ -1,0 +1,68 @@
+import type { Achievement } from "@/types";
+
+export const achievements: Achievement[] = [
+  {
+    id: "cgpa",
+    label: "CGPA",
+    value: "3.93",
+    numericValue: 3.93,
+    suffix: "/4.00",
+    description: "B.Sc. CSE — University of Asia Pacific",
+    icon: "graduation-cap",
+  },
+  {
+    id: "projects",
+    label: "Projects Built",
+    value: "10+",
+    numericValue: 10,
+    suffix: "+",
+    description: "Production-grade systems across multiple domains",
+    icon: "folder-code",
+  },
+  {
+    id: "problems",
+    label: "Problems Solved",
+    value: "300+",
+    numericValue: 300,
+    suffix: "+",
+    description: "Codeforces, LeetCode, and other competitive platforms",
+    icon: "code-2",
+  },
+  {
+    id: "vc-awards",
+    label: "VC Awards",
+    value: "4",
+    numericValue: 4,
+    description: "Vice Chancellor Awards for Academic Excellence",
+    icon: "award",
+  },
+  {
+    id: "dean-awards",
+    label: "Dean's Award",
+    value: "1",
+    numericValue: 1,
+    description: "Dean's List recognition for outstanding performance",
+    icon: "medal",
+  },
+  {
+    id: "hackathon",
+    label: "AI Hackathon",
+    value: "Top 20",
+    description: "Impact Dhaka — Bangladesh's first AI Hackathon (Cognisor AI)",
+    icon: "zap",
+  },
+  {
+    id: "ctf",
+    label: "CTF Champion",
+    value: "1st",
+    description: "Champion of Intra University CTF Contest 1.0",
+    icon: "shield",
+  },
+  {
+    id: "iupc",
+    label: "IUPC Rank",
+    value: "Top 30",
+    description: "Solved 5 problems in Inter University Programming Contest",
+    icon: "trophy",
+  },
+];
