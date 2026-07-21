@@ -144,7 +144,7 @@ export default function HeroSection() {
               {/* Quick stats */}
               <div className="flex items-center gap-6">
                 {[
-                  { value: "3.93", label: "CGPA" },
+                  { value: "3.94", label: "CGPA" },
                   { value: "10+", label: "Projects" },
                   { value: "300+", label: "Problems" },
                 ].map(({ value, label }) => (
@@ -214,7 +214,7 @@ export default function HeroSection() {
                 className="absolute -left-4 bottom-12 bg-[#0F172A] border border-white/10 rounded-xl px-3 py-2 shadow-xl backdrop-blur-sm"
               >
                 <div className="text-xs text-slate-500">CGPA</div>
-                <div className="text-base font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-400">3.93 / 4.00</div>
+                <div className="text-base font-bold text-transparent bg-clip-text bg-linear-to-r from-cyan-400 to-blue-400">3.94 / 4.00</div>
               </motion.div>
             </motion.div>
           </motion.div>

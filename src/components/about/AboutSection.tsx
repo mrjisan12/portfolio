@@ -89,7 +89,7 @@ export default function AboutSection() {
                 <span className="text-white font-semibold">Md. Mizanur Rahman</span>, a
                 software engineer from Dhaka, Bangladesh, currently in my final year of B.Sc.
                 CSE at the University of Asia Pacific with a{" "}
-                <span className="text-cyan-400 font-semibold">CGPA of 3.93/4.00</span>.
+                <span className="text-cyan-400 font-semibold">CGPA of 3.94/4.00</span>.
               </p>
             </div>
 
@@ -114,7 +114,7 @@ export default function AboutSection() {
             <div className="grid grid-cols-2 gap-4">
               {[
                 { icon: MapPin, label: "Location", value: "Dhaka, Bangladesh" },
-                { icon: GraduationCap, label: "CGPA", value: "3.93 / 4.00" },
+                { icon: GraduationCap, label: "CGPA", value: "3.94 / 4.00" },
                 { icon: Briefcase, label: "Role", value: "Backend Developer" },
                 { icon: Code2, label: "Focus", value: "Backend & AI Systems" },
               ].map(({ icon: Icon, label, value }) => (
