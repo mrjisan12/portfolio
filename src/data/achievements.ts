@@ -4,8 +4,8 @@ export const achievements: Achievement[] = [
   {
     id: "cgpa",
     label: "CGPA",
-    value: "3.93",
-    numericValue: 3.93,
+    value: "3.94",
+    numericValue: 3.94,
     suffix: "/4.00",
     description: "B.Sc. CSE — University of Asia Pacific",
     icon: "graduation-cap",
@@ -31,8 +31,8 @@ export const achievements: Achievement[] = [
   {
     id: "vc-awards",
     label: "VC Awards",
-    value: "4",
-    numericValue: 4,
+    value: "5",
+    numericValue: 5,
     description: "Vice Chancellor Awards for Academic Excellence",
     icon: "award",
   },

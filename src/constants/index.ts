@@ -4,12 +4,12 @@ export const SITE_CONFIG = {
   title: "Software Engineer",
   description:
     "Software Engineer specializing in backend architecture, enterprise systems, AI-powered applications, and modern web technologies. Based in Dhaka, Bangladesh.",
-  url: "https://mizanurrahman.dev",
+  url: "https://mrjisan12.vercel.app/",
   email: "mizanururahmanjisan12@gmail.com",
   phone: "01752-730364",
   location: "Dhaka, Bangladesh",
-  github: "https://github.com/mizanur-rahman",
-  linkedin: "https://linkedin.com/in/mizanur-rahman",
+  github: "https://github.com/mrjisan12/",
+  linkedin: "https://www.linkedin.com/in/md-mizanur-rahman-ab5333287/",
   availability: "Open to Opportunities",
 } as const;
 

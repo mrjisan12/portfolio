@@ -3,13 +3,13 @@ import type { Project } from "@/types";
 export const projects: Project[] = [
   {
     id: "nusukibd",
-    title: "NusukiBD",
+    title: "NUSUKI",
     year: "2026",
     category: "enterprise",
     description:
       "Govt-approved travel agency platform supporting Hajj, Umrah, Hotels & international travel services.",
     longDescription:
-      "NusukiBD is a comprehensive travel-tech platform for a government-approved travel agency. Built the entire backend system with complex Sabre API integrations for real-time flight booking, hotel reservations, and travel package management.",
+      "Nusuki is a comprehensive travel-tech platform for a government-approved travel agency. Built the entire backend system with complex Sabre API integrations for real-time flight booking, hotel reservations, and travel package management.",
     technologies: ["Laravel", "Filament", "Sabre API", "PostgreSQL", "PHP"],
     challenges:
       "Integrating complex Sabre GDS APIs for real-time flight and hotel data with proper error handling and caching.",
